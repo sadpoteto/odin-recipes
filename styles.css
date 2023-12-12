@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+    background-color: lavender;
+}
+
+.title {
+    font: Tahoma, serif;
+}
+
+#page-title {
+    font-size: 40px;
+    background-color: lavenderblush;
+}
+
+.index, .index * {
+    font-size: 18px;
+    background-color: aquamarine;
+}
+
+.index {
+    color: aquamarine;
+}
+
+img {
+    width: 640px;
+    height: auto;
+}
+
+#nav-menu * {
+    background-color: lightcoral;
+}
