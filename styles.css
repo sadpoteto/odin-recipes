@@ -3,6 +3,10 @@
     background-color: lightgray;
 }
 
+.lefttext {
+    text-align: left;
+}
+
 .title {
     font: Tahoma, serif;
 }
@@ -12,6 +16,7 @@
 }
 
 .index, .index * {
+    text-align: center;
     font-size: 18px;
     padding: 8px;
     color: black;
@@ -23,7 +28,7 @@ ul {
     list-style: none;
 }
 
-ol * {
+ol *, ul * {
     text-align: left;
 }
 
@@ -36,6 +41,10 @@ ol * {
 img {
     width: 640px;
     height: auto;
+}
+
+#nav-menu {
+    text-align: center;
 }
 
 #nav-menu * {
