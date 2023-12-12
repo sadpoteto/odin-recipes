@@ -28,10 +28,9 @@ ol * {
 }
 
 .index * * {
-    border: 1px solid black;
     border-radius: 8px;
     width: 150px;
-    background-color: lightblue;
+    background-color: beige;
 }
 
 img {
@@ -40,5 +39,17 @@ img {
 }
 
 #nav-menu * {
-    background-color: lightcoral;
+    display: inline-block;
+    color: black;
+    background-color: beige;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin: 8px 10px;
+    width: 150px;
+}
+
+.body * {
+    width: 840px;
+    margin: 8px auto;
 }
