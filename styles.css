@@ -1,6 +1,6 @@
 * {
     text-align: center;
-    background-color: lavender;
+    background-color: lightgray;
 }
 
 .title {
@@ -9,16 +9,29 @@
 
 #page-title {
     font-size: 40px;
-    background-color: lavenderblush;
 }
 
 .index, .index * {
     font-size: 18px;
-    background-color: aquamarine;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.index {
-    color: aquamarine;
+ul {
+    list-style: none;
+}
+
+ol * {
+    text-align: left;
+}
+
+.index * * {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 150px;
+    background-color: lightblue;
 }
 
 img {
